@@ -39,6 +39,42 @@
   small{
     color: #ECEFF1;
   }
+/* XSmall devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+    .header {
+        height: 350px;
+    }
+
+        .header img[src*='mhz.jpg'] {
+            width: 250px;
+            top: 140px;
+        }
+}
+
+/* Small devices (desktops, 992px and up) */
+@media screen and (max-width: 992px) and (min-width: 768px) {
+
+    .header img[src*='mhz.jpg'] {
+        width: 270px;
+        top: 80px;
+    }
+}
+/* Medium devices (desktops, 992px and up) */
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+
+    .header img[src*='mhz.jpg'] {
+        width: 300px;
+        top: 75px;
+    }
+}
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    .header img[src*='mhz.jpg'] {
+        width: 300px;
+        top: 80px;
+    }
+}
 
 </style>  
 
@@ -55,7 +91,7 @@
       <hr />
   </div>
 
-    <div class="col-lg-5 col-lg-offset-3">
+<div class="col-lg-5 col-lg-offset-3">
 <!-- programming -->
   <h1 style="text-align:left; font-family: 'Gloria Hallelujah', cursive">skills</h1>
 <div>
