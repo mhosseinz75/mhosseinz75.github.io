@@ -2,3 +2,8 @@ css to khodesh ye chizaii neveshtam file joda nadare .
 az cdn bootstrap estefade karadm .
 js ham nadare .
 
+   .header img[src*='mhz.jpg'] {
+        width: 300px;
+        top: 75px;
+    }
+}
